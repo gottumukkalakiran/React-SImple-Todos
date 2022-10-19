@@ -1,0 +1,38 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #000000;
+}
+
+.delete-btn {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #ff0b37;
+  background-color: #ffffff;
+  border: 1px solid #ff0b37;
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin-left: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .delete-btn {
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-left: 16px;
+  }
+}
